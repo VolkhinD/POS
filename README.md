@@ -4,14 +4,13 @@
 This is a PyTorch Project to Sequence Labeling. 
 Part-of-Speech (POS) tagging is a fundamental task in Natural Language Processing (NLP) that involves labeling each word in a sentence with its corresponding part of speech (e.g., noun, verb, adjective). In this project, we explore four different models to tackle the POS tagging problem. 
 Each model builds upon the previous one, incorporating more advanced techniques and architectures to improve performance. 
+![img](https://github.com/VolkhinD/POS/blob/main/img/1.jpeg)
 
 All libraries versions on [requirements.txt](https://github.com/VolkhinD/POS/blob/main/requirements.txt) file
 
 **Objective**
 --
 The objective of this NLP project is to research and evaluate different models for Part-of-Speech (POS) tagging, starting from a simple bi-directional Long Short-Term Memory (bi-LSTM) model using only word-level inputs. The research progresses by incorporating character-level features and combining their outputs with the word-level LSTM. Subsequently, Highway Networks are introduced to enhance the connection between character-level and word-level LSTMs. Finally, a Conditional Random Field (CRF) layer is added to improve the sequence labeling performance. This research aims to systematically investigate the impact of each architectural enhancement on the accuracy and robustness of POS tagging, leveraging pre-trained GloVe embeddings throughout the experiments.
-![img](https://github.com/VolkhinD/POS/blob/main/img/1.jpeg)
-
 
 **Concepts**
 --
